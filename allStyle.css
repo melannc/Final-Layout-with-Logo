@@ -132,12 +132,33 @@ nav a:hover::after {
     color: rgb(0, 0, 0);
 }
 
+
 .main-content {
     padding: 2em;
     width: 80%;
     height: 100vh;
     background: #ffffff;
     float: right;
+}
+
+.contacts-text{
+    margin-top: 2em;
+}
+
+.contacts-text a{
+    text-decoration: none;
+}
+
+.contacts-text a:hover{
+    text-decoration:underline;
+}
+
+.contacts-text h1, h2, p{
+    text-align: center;
+}
+
+.contacts-text h1{
+    font-size: 5em;
 }
 
 .top-three {
@@ -222,10 +243,13 @@ nav a:hover::after {
 
 .textmain{
     padding: 10rem 5rem;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center; 
     align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .textmain h2{
@@ -245,6 +269,8 @@ nav a:hover::after {
 .lower-two {
     height: 50%;
     margin: auto;
+    background-color: #000000;
+    
 }
 
 .four{
